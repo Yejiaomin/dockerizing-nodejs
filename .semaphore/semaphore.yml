@@ -8,7 +8,7 @@ blocks:
   - name: Build
     task:
       jobs:
-        - name: docker build -t addressbook
+        - name: docker build
           commands:
             - checkout
-            - docker build -t your-image .
+            - docker build -t addressbook
